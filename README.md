@@ -18,3 +18,4 @@ Comandos do Git:
 - git diff => mostra as alterações antes de você comitar
 - git show número do branch => mostra informações sobre aquele número do branch
 - git log author "" => Filtra pelo autor do commit
+- git diff --name-only
