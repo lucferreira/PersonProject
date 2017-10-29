@@ -46,6 +46,8 @@ ex: git config --global alias.s status
 ex: git config --global alias.b branch
 Utilizando tags para quem trabalha com bibliotecas:
 git tag -a 1.0.0 -m "Primeira versão"
+git tag -a 1.0.2 -m "Segunda versão"
+git tag -a 1.0.3 -m "Terceira versão"
 
 
 =======
