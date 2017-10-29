@@ -33,6 +33,9 @@ Comandos do Git:
 - (branch) -> Repositório master por default
 - Fork => Clicar no botão do fork no site do github => copia do repostório original para um outro projeto. Isso é feito para projetos que não são seus.
 Assim que modificado é possível enviar.
+- git checkout - b 'nome do branch'
+- git branch informa todos os seus branchs (* é aquele que está sendo usado no momento).
+- git branch -D => apaga um branch
 
 =======
 - git diff --name-only
