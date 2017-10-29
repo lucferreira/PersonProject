@@ -30,6 +30,10 @@ Comandos do Git:
 - git reset --mixed (+ identificação do commit)
 - git push -u (para não ter que digitar novamente na próxima vez que utilizar o comando)
 - git push -u origin master => Vem do branch padrão (master) e volta para origin (pasta local)
+- (branch) -> Repositório master por default
+- Fork => Clicar no botão do fork no site do github => copia do repostório original para um outro projeto. Isso é feito para projetos que não são seus.
+Assim que modificado é possível enviar.
+
 =======
 - git diff --name-only
 >>>>>>> ccb2164a59e402efc9ef0f9f241ce556f4f8c3cc
