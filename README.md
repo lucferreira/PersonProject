@@ -41,6 +41,12 @@ Assim que modificado é possível enviar.
 - git stash --apply => aplica as modificações no arquivo.
 - git stash list => lista todas as modificações utilizando o stash
 - git stash clear => Apaga todos os stashs criados
+- criando atalhos com o git config:
+ex: git config --global alias.s status
+ex: git config --global alias.b branch
+Utilizando tags para quem trabalha com bibliotecas:
+git tag -a 1.0.0 -m "Primeira versão"
+
 
 =======
 - git diff --name-only
