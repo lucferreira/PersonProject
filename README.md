@@ -48,6 +48,14 @@ Utilizando tags para quem trabalha com bibliotecas:
 git tag -a 1.0.0 -m "Primeira versão"
 git tag -a 1.0.2 -m "Segunda versão"
 git tag -a 1.0.3 -m "Terceira versão"
+Informações sobre o comando revert (utilidade - reverte as mudanças feitas anteriormente, pode dar um checkout para ver o que aconteceu. Ele 
+para não apagar as modificações que você fez):
+git revert id do commit.
+Apagar a tag do repositorio remoto
+Local: git tag -d versão da tag -> mas isso não apaga do diretório remoto
+git push origin : versão da tag que você quer apagar
+git push origin : nome do branch
+
 
 
 =======
