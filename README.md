@@ -18,4 +18,16 @@ Comandos do Git:
 - git diff => mostra as alterações antes de você comitar
 - git show número do branch => mostra informações sobre aquele número do branch
 - git log author "" => Filtra pelo autor do commit
+<<<<<<< HEAD
+
 - git diff --name-only
+- git checkout => Retorna o arquivo para versão anterior.
+=======
+- git diff --name-only
+
+- git reset --hard (+ identificação do commit) volta tudo ao estado anterior com status unmodifed
+- git reset --soft (+ identificação do commit)
+- git reset --mixed (+ identificação do commit)
+=======
+- git diff --name-only
+>>>>>>> ccb2164a59e402efc9ef0f9f241ce556f4f8c3cc
