@@ -28,6 +28,8 @@ Comandos do Git:
 - git reset --hard (+ identificação do commit) volta tudo ao estado anterior com status unmodifed
 - git reset --soft (+ identificação do commit)
 - git reset --mixed (+ identificação do commit)
+- git push -u (para não ter que digitar novamente na próxima vez que utilizar o comando)
+- git push -u origin master => Vem do branch padrão (master) e volta para origin (pasta local)
 =======
 - git diff --name-only
 >>>>>>> ccb2164a59e402efc9ef0f9f241ce556f4f8c3cc
