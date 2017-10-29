@@ -36,6 +36,11 @@ Assim que modificado é possível enviar.
 - git checkout - b 'nome do branch'
 - git branch informa todos os seus branchs (* é aquele que está sendo usado no momento).
 - git branch -D => apaga um branch
+É bom para evitar conflitos com arquivos (guarda as modificações), faz o comando e depois faz o pull de arquivo
+- git stach => Pausa a modificação do arquivo relacionado aquele branch
+- git stash --apply => aplica as modificações no arquivo.
+- git stash list => lista todas as modificações utilizando o stash
+- git stash clear => Apaga todos os stashs criados
 
 =======
 - git diff --name-only
